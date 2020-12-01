@@ -20,5 +20,5 @@ in createpythonproject.py:
 
 in createPY:
 - change the path (line 1) to whatever folder you put the files in
-- change the path (line 3) to wherever you wanna store the projects
+- change the path (line 3) to wherever you wanna store the projects. maintain the /%1
 - change the <username> (line 5) to your github's username
