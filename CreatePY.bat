@@ -1,8 +1,8 @@
-cd C:/myprojects/Aliases/CreateCommand
+cd C:/path/to/AutomatePythonProjects
 py CreatePythonProject.py %1
-cd C:/myprojects/pythonprojects/%1
+cd C:/path/to/projects/%1
 git init
-git remote add origin https://github.com/KingOfJesters/%1.git
+git remote add origin https://github.com/<username>/%1.git
 type nul >> README.txt
 git add .
 git commit -m "Initial commit"
