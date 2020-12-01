@@ -7,15 +7,11 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from pathlib import Path
 
-# file_name = sys.argv[1]
-# path = Path('C:/myprojects/pythonprojects')
-# os.chdir(path)
-# Path(sys.argv[1]+'.py').touch()
 file_name = sys.argv[1]
-path = Path('C:/myprojects/pythonprojects')
+path = Path('C:/path/to/projects')
 os.chdir(path)
 Path(sys.argv[1]).mkdir()
-path = Path('C:/myprojects/pythonprojects/'+ sys.argv[1])
+path = Path('C:/path/to/projects/'+ sys.argv[1])
 os.chdir(path)
 Path(sys.argv[1]+'.py').touch()
 
